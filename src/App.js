@@ -5,7 +5,23 @@ import './App.css';
 function App() {
   return (
     <div>
-      Text here
+      <div>
+        Header
+      </div>
+      <div>
+        <div>
+          Content Top
+        </div>
+        <div>
+          Content Middle
+        </div>
+        <div>
+          Content Bottom
+        </div>
+      </div>
+      <div>
+        Footer
+      </div>
     </div>
   );
 }
