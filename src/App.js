@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/global/Header';
+import Footer from './components/global/Footer';
+import Records from './components/records/Records';
 
 function App() {
   return (
-    <div className='fill-viewport'>
+    <div className='fill-viewport d-flex flex-column'>
       <div>
-        Header
+        <Header />
+      </div>
+      <div className='flex-grow-1'>
+        <Records />
       </div>
       <div>
-        <div>
-          Content Top
-        </div>
-        <div>
-          Content Middle
-        </div>
-        <div>
-          Content Bottom
-        </div>
-      </div>
-      <div>
-        Footer
+        <Footer />
       </div>
     </div>
   );
