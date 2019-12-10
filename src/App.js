@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className='fill-viewport'>
       <div>
         Header
       </div>
