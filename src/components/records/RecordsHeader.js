@@ -2,8 +2,13 @@ import React from 'react';
 
 function RecordsHeader() {
   return (
-    <div className='d-flex flex-row flex-grow-1'>
-        Content Top
+    <div className='d-flex flex-row flex-grow-1 justify-content-between'>
+        <div className='d-flex'>
+            Records Title
+        </div>
+        <div className='d-flex'>
+            Search Box Here
+        </div>
     </div>
   );
 }
