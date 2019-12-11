@@ -2,7 +2,7 @@ import React from 'react';
 
 function RecordsFooter() {
   return (
-    <div className='d-flex flex-row flex-grow-1 justify-content-between'>
+    <div className='d-flex flex-row flex-grow-1 justify-content-between bg-secondary text-white'>
         <div>
             Items Per Page Control
         </div>
