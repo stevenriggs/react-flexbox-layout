@@ -7,7 +7,7 @@ function RecordsFooter() {
             Items Per Page Control
         </div>
         <div>
-            Pagniation Control
+            Pagination Control
         </div>
         <div>
             1 to 20 of 100 Records
