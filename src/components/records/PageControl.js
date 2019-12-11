@@ -4,7 +4,7 @@ import Pagination from 'react-bootstrap/Pagination';
 function PageControl() {
   return (
     <div>
-        <Pagination size="sm">
+        <Pagination size="sm" className='m-0 p-0'>
             <Pagination.First />
             <Pagination.Prev />
             <Pagination.Item>{1}</Pagination.Item>
