@@ -2,14 +2,14 @@ import React from 'react';
 
 function Records() {
   return (
-    <div className='h-100 d-flex flex-column'>
-            <div>
+    <div className='d-flex flex-column flex-grow-1'>
+            <div className='d-flex flex-grow-0'>
                 Content Top
             </div>
-            <div className='flex-grow-1'>
+            <div className='d-flex flex-grow-1'>
                 Content Middle
             </div>
-            <div>
+            <div className='d-flex flex-grow-0'>
                 Content Bottom
             </div>
     </div>

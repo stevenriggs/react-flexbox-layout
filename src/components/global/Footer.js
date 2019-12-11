@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <div>
+        <div className='d-flex flex-grow-1'>
             Footer
         </div>
     );

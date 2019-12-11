@@ -6,14 +6,14 @@ import Records from './components/records/Records';
 
 function App() {
   return (
-    <div className='fill-viewport d-flex flex-column'>
-      <div>
+    <div className='d-flex flex-column vh-100'>
+      <div className='d-flex flex-grow-0'>
         <Header />
       </div>
-      <div className='flex-grow-1'>
+      <div className='d-flex flex-grow-1'>
         <Records />
       </div>
-      <div>
+      <div className='d-flex flex-grow-0'>
         <Footer />
       </div>
     </div>

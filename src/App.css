@@ -1,7 +1,3 @@
 * {
   border: 1px solid red;  /* For debugging */
 }
-
-.fill-viewport {
-  height: 100vh;
-}
