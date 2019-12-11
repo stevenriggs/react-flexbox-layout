@@ -1,4 +1,5 @@
 import React from 'react';
+import RecordsPagination from './RecordsPagination';
 
 function RecordsFooter() {
   return (
@@ -7,7 +8,7 @@ function RecordsFooter() {
             Items Per Page Control
         </div>
         <div>
-            Pagination Control
+            <RecordsPagination />
         </div>
         <div>
             1 to 20 of 100 Records
