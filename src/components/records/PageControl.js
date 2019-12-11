@@ -1,7 +1,7 @@
 import React from 'react';
 import Pagination from 'react-bootstrap/Pagination';
 
-function RecordsPagination() {
+function PageControl() {
   return (
     <div>
         <Pagination size="sm">
@@ -25,4 +25,4 @@ function RecordsPagination() {
   );
 }
 
-export default RecordsPagination;
+export default PageControl;

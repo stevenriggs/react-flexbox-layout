@@ -1,16 +1,16 @@
 import React from 'react';
-import RecordsPagination from './RecordsPagination';
+import PageControl from './PageControl';
 
 function RecordsFooter() {
   return (
-    <div className='d-flex flex-row flex-grow-1 justify-content-between bg-secondary text-white'>
-        <div>
+    <div className='d-flex flex-row flex-grow-1 justify-content-between bg-light border pt-2'>
+        <div className='d-flex'>
             Items Per Page Control
         </div>
-        <div>
-            <RecordsPagination />
+        <div className='d-flex'>
+            <PageControl />
         </div>
-        <div>
+        <div className='d-flex align-middle'>
             1 to 20 of 100 Records
         </div>
     </div>
