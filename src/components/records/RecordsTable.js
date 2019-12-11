@@ -16,29 +16,27 @@ function RecordsTable() {
         })
     }
     return (
-        <div className='container-fluid m-0 p-0 d-flex flex-row flex-grow-1'>
-            <div className='container-fluid m-0 p-0 d-flex flex-grow-1 mh-25 overflow-auto'>
-                <Table striped bordered hover size="sm">
-                    <thead className='sticky-top bg-light'>
+        <div className='overflow-auto'>
+            <Table striped bordered hover size="sm">
+                <thead className='sticky-top bg-light'>
+                    <tr>
+                        <th>Header A</th>
+                        <th>Header B</th>
+                        <th>Header C</th>
+                        <th>Header D</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {items.map(item=>
                         <tr>
-                            <th>Header A</th>
-                            <th>Header B</th>
-                            <th>Header C</th>
-                            <th>Header D</th>
+                            <td>{item.dataA}</td>
+                            <td>{item.dataB}</td>
+                            <td>{item.dataC}</td>
+                            <td>{item.dataD}</td>
                         </tr>
-                    </thead>
-                    <tbody>
-                        {items.map(item=>
-                            <tr>
-                                <td>{item.dataA}</td>
-                                <td>{item.dataB}</td>
-                                <td>{item.dataC}</td>
-                                <td>{item.dataD}</td>
-                            </tr>
-                        )}
-                    </tbody>
-                </Table>
-            </div>
+                    )}
+                </tbody>
+            </Table>
         </div>
     );
 }

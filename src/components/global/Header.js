@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <div className='container-fluid m-0 p-0  d-flex'>
+        <div className='d-flex flex-grow-1'>
             Header
         </div>
     );
