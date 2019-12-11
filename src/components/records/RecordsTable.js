@@ -3,7 +3,7 @@ import Table from 'react-bootstrap/Table';
 
 function RecordsTable() {
     const items = [];
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 30; i++) {
         let theAItem = 'Data A-' + i;
         let theBItem = 'Data B-' + i;
         let theCItem = 'Data C-' + i;
@@ -16,14 +16,14 @@ function RecordsTable() {
         })
     }
     return (
-        <div className='overflow-auto'>
-            <Table striped bordered hover size="sm">
-                <thead className='sticky-top bg-light'>
+        <div className='h-100 overflow-auto' >
+            <Table striped bordered hover repsonsive size="sm">
+                <thead className='bg-light'>
                     <tr>
-                        <th>Header A</th>
-                        <th>Header B</th>
-                        <th>Header C</th>
-                        <th>Header D</th>
+                        <th className='sticky-top bg-light'>Header A</th>
+                        <th className='sticky-top bg-light'>Header B</th>
+                        <th className='sticky-top bg-light'>Header C</th>
+                        <th className='sticky-top bg-light'>Header D</th>
                     </tr>
                 </thead>
                 <tbody>
