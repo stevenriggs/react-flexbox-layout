@@ -18,7 +18,7 @@ function RecordsTable() {
     return (
         <div className='h-100 overflow-auto' >
             <Table striped bordered hover repsonsive size="sm">
-                <thead className='bg-light'>
+                <thead>
                     <tr>
                         <th className='sticky-top bg-light'>Header A</th>
                         <th className='sticky-top bg-light'>Header B</th>
