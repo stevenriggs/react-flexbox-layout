@@ -20,10 +20,10 @@ function RecordsTable() {
             <Table striped bordered hover repsonsive size="sm">
                 <thead>
                     <tr>
-                        <th className='sticky-top bg-secondary text-white'>Header A</th>
-                        <th className='sticky-top bg-secondary text-white'>Header B</th>
-                        <th className='sticky-top bg-secondary text-white'>Header C</th>
-                        <th className='sticky-top bg-secondary text-white'>Header D</th>
+                        <th className='sticky-top bg-light'>Header A</th>
+                        <th className='sticky-top bg-light'>Header B</th>
+                        <th className='sticky-top bg-light'>Header C</th>
+                        <th className='sticky-top bg-light'>Header D</th>
                     </tr>
                 </thead>
                 <tbody>
