@@ -5,14 +5,14 @@ import RecordsTable from './RecordsTable';
 
 function Records() {
   return (
-    <div className='d-flex flex-column flex-grow-1'>
-            <div className='d-flex flex-grow-0'>
+    <div className='container-fluid m-0 p-0 d-flex flex-column flex-grow-1'>
+            <div className='container-fluid m-0 p-0 d-flex flex-grow-0'>
                 <RecordsHeader />
             </div>
-            <div className='d-flex flex-grow-1'>
+            <div className='container-fluid m-0 p-0 d-flex flex-grow-1'>
                 <RecordsTable />
             </div>
-            <div className='d-flex flex-grow-0'>
+            <div className='container-fluid m-0 p-0 d-flex flex-grow-0'>
                 <RecordsFooter />
             </div>
     </div>

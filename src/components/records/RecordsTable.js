@@ -16,8 +16,8 @@ function RecordsTable() {
         })
     }
     return (
-        <div className='d-flex flex-row flex-grow-1'>
-            <div className='d-flex flex-grow-1 overflow-auto'>
+        <div className='container-fluid m-0 p-0 d-flex flex-row flex-grow-1'>
+            <div className='container-fluid m-0 p-0 d-flex flex-grow-1 mh-25 overflow-auto'>
                 <Table striped bordered hover size="sm">
                     <thead className='sticky-top bg-light'>
                         <tr>
