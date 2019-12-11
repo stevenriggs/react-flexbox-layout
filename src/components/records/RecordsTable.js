@@ -16,7 +16,7 @@ function RecordsTable() {
         })
     }
     return (
-        <div className='h-100 overflow-auto' >
+        <div className='h-100 w-100 overflow-auto' >
             <Table striped bordered hover repsonsive size="sm">
                 <thead>
                     <tr>

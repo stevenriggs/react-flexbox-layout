@@ -4,14 +4,14 @@ import ItemsPerPageControl from './ItemsPerPageControl';
 
 function RecordsFooter() {
   return (
-    <div className='d-flex flex-row flex-grow-1 flex-wrap justify-content-between align-items-center bg-light border p-2'>
-        <div className='d-flex'>
+    <div className='d-flex flex-row flex-grow-1 flex-wrap justify-content-between align-items-center bg-light border p-1'>
+        <div className='d-flex p-1'>
             <ItemsPerPageControl />
         </div>
-        <div className='d-flex'>
+        <div className='d-flex p-1'>
             <PageControl />
         </div>
-        <div className='d-flex'>
+        <div className='d-flex p-1'>
             1 to 20 of 100 Records
         </div>
     </div>
